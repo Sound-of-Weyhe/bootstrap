@@ -50,3 +50,8 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+// Change style of AcyMailing Input
+.acym__user__edit__email {
+  @extend .form-control;
+}
